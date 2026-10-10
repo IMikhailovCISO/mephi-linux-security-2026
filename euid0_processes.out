@@ -1,0 +1,3 @@
+    0  1000 sudo -u user1 passwd
+    0  1000 sudo -u user1 passwd
+    0  1234 passwd

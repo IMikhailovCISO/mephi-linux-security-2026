@@ -1,0 +1,27 @@
+cat /etc/os-release && id
+sudo apt-get update && sudo apt-get install -y libcap2-bin git
+mkdir -p ~/work
+cp /mnt/c/Users/user/AppData/Local/Temp/opencode/run_dz1.sh ~/work/
+chmod +x ~/work/run_dz1.sh
+cd ~/work && ./run_dz1.sh
+sudo groupadd -f students
+sudo useradd -m -u 1234 -G students -s /bin/bash user1
+id user1
+sudo chage -l user1
+find / -xdev -type f -perm /4000 2>/dev/null
+ps -eo euid,ruid,cmd | awk '$1==0 && $2>0'
+sudo -u user1 passwd
+cp /usr/bin/cat ~/bin/mycat
+sudo chown root:root ~/bin/mycat
+sudo chmod u+s ~/bin/mycat
+~/bin/mycat /etc/shadow
+cp /usr/bin/chown ~/bin/mychown
+sudo setcap cap_chown+ep ~/bin/mychown
+touch ~/tmp.test && ~/bin/mychown root:root ~/tmp.test && ls -l ~/tmp.test
+echo 'user1 ALL=(root) NOPASSWD: /usr/bin/date, /usr/sbin/hwclock, /usr/bin/timedatectl' | sudo tee /etc/sudoers.d/user1-time
+sudo chmod 440 /etc/sudoers.d/user1-time
+sudo visudo -c
+stat /home/user1
+stat ~/bin/mycat
+stat ~/bin/mychown
+history > ~/history.out

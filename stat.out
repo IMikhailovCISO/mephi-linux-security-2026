@@ -1,0 +1,24 @@
+  File: /home/user1
+  size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 41903       Links: 2
+Access: (0750/drwxr-x---)  Uid: ( 1234/   user1)   Gid: ( 1234/   user1)
+Access: 2026-10-10 11:05:54.775141575 +0300
+Modify: 2026-10-10 11:05:54.779141575 +0300
+Change: 2026-10-10 11:05:54.779141575 +0300
+ Birth: 2026-10-10 11:05:54.775141575 +0300
+  File: /home/mikhailovil/bin/mycat
+  size: 11352352  	Blocks: 22176      IO Block: 4096   regular file
+Device: 8,48	Inode: 41908       Links: 1
+Access: (4755/-rwsr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-10-10 11:10:51.791148242 +0300
+Modify: 2026-10-10 11:10:51.743148237 +0300
+Change: 2026-10-10 11:10:51.779148241 +0300
+ Birth: 2026-10-10 11:10:51.727148235 +0300
+  File: /home/mikhailovil/bin/mychown
+  size: 11352352  	Blocks: 22176      IO Block: 4096   regular file
+Device: 8,48	Inode: 41921       Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/mikhailovil)   Gid: ( 1000/mikhailovil)
+Access: 2026-10-10 11:05:57.251141503 +0300
+Modify: 2026-10-10 11:05:57.227141504 +0300
+Change: 2026-10-10 11:05:57.239141503 +0300
+ Birth: 2026-10-10 11:05:57.219141504 +0300

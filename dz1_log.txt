@@ -1,0 +1,8 @@
+Last password change					: Oct 10, 2026
+Password expires					: Jan 08, 2027
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 14
+-rwsr-xr-x 1 mikhailovil mikhailovil 11352352 Oct 10 11:05 /home/mikhailovil/bin/mycat
